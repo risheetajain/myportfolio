@@ -1,0 +1,258 @@
+name: knowledgeable_content
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  animations: ^1.1.2
+  simple_animations: ^2.4.2
+  sa_v1_migration: ^1.1.2
+  animated_bottom_navigation_bar: ^0.2.1
+  convex_bottom_bar: ^2.6.0
+  curved_navigation_bar: ^0.3.7
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_login: ^1.0.14
+
+  firebase_core: ^0.7.0
+  firebase_auth:
+  google_sign_in: ^4.5.9
+  typed_data: ^1.2.0
+  font_awesome_flutter: ^8.11.0
+  flutter_login_facebook: ^0.4.2+3
+  flutter_facebook_login: ^3.0.0
+  googleapis: ^0.56.1
+  flutter_staggered_grid_view: ^0.3.3
+  googleapis_auth: ^0.2.12
+  flutter_svg: 0.19.0
+  cloud_firestore: ^0.16.0
+  http: ^0.12.2
+  flutter_signin_button: ^1.1.0
+  provider: ^4.3.3
+  sign_button: ^1.0.1
+  flutter_toggle_tab:
+  salomon_bottom_bar: ^2.0.0
+  expandable_bottom_bar: ^1.0.2
+  flutter_snake_navigationbar: ^0.4.4
+  persistent_bottom_nav_bar: ^3.1.0
+  google_nav_bar: ^3.2.0
+  custom_navigation_bar: ^0.7.1
+  flutter_zoom_drawer: ^1.0.4+1
+  flutter_inner_drawer: ^0.5.7+2
+  drawerbehavior: ^1.2.1
+  fancy_drawer: ^1.0.0
+  hidden_drawer_menu: ^2.0.1
+  multilevel_drawer: ^1.0.3
+  animated_drawer: ^0.0.4
+  flutter_picker: 1.1.5
+  flutter_slider_drawer: ^1.2.1
+  path_provider: ^1.6.22
+  path: ^1.7.0
+  fluttertoast: ^7.1.1
+  flutter_secure_storage: ^3.3.5
+  audioplayers: ^0.17.3
+  video_player: ^1.0.1
+  chewie: ^0.12.2
+  url_launcher: ^5.7.0
+  email_validator: ^1.0.6
+  geolocator: ^6.1.14
+  geocoder: ^0.2.1
+  smooth_star_rating: ^1.1.1
+  google_maps_flutter: ^1.1.1
+  image_picker: ^0.6.7+22
+  camera:
+  bubble_bottom_bar: ^1.2.0
+  neumorphic: ^0.4.0
+  shifting_tabbar: ^0.3.1
+  flutter_point_tab_bar: ^0.1.0
+  tabbar: ^0.1.1
+  rubber: ^0.4.0
+  adaptive_action_sheet: ^1.0.11
+  bottom_sheet_x: ^1.0.0
+  draggable_bottom_sheet: ^0.1.2
+  bottom_sheet: ^0.0.1-dev.7
+  bubble_tab_indicator: ^0.1.4
+  tab_indicator_styler: ^1.0.0
+  scrollable_list_tabview: ^0.1.6
+  extended_tabs: ^1.0.1
+
+  animated_splash_screen: ^1.0.1+2
+  flare_splash_screen: ^3.0.1
+  your_splash: ^0.2.2
+  splash_tap: ^0.1.2
+  custom_splash: ^0.0.2
+  splash_screen_view: ^1.0.3
+  audio_manager: ^0.7.3
+  flutter_audio_manager: ^0.2.3
+  carousel_pro: ^1.0.0
+  flutter_bloc: ^3.1.0
+  google_fonts: ^1.1.2
+  permission_handler: 5.0.0
+  flutter_local_notifications: 3.0.1+6
+  firebase_messaging: 
+  pdf: ^2.1.0
+  pdf_flutter: ^1.1.4
+  flutter_downloader: ^1.5.2
+  flutter_full_pdf_viewer: ^1.0.6
+  flutter_pdfview: ^1.0.4
+  advance_pdf_viewer: ^1.2.2
+  ext_storage: ^1.0.3
+  dio: ^3.0.10
+  permission_handler_platform_interface: ^2.0.0
+  upi_pay: ^0.2.4
+  upi_india: ^2.2.0+1
+  webview_flutter: ^1.0.7
+  country_code_picker: ^1.7.0
+
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/Logos/logo.png
+     - assets/images/
+     - assets/icons/
+     - images/images/
+     - images/icons/
+     - assets/vio.mp4
+     - assets/Food Ordering/assets/images/
+     - assets/Food Ordering/assets/icons/
+     - assets/E-commerce/assets/images/
+     - assets/E-commerce/assets/icons/
+     - assets/audio/xv.mp3
+     - assets/audio/xv.jpg
+     - assets/audio/aLIEz.m4A
+     - assets/audio/aLIEz.jpg
+     - assets/audio/ic_launcher.png
+#
+     - assets/Ecommerce App 1/fk-plus_043837.png
+     - assets/Ecommerce App 1/
+     - assets/Ecommerce App 1/logo.png
+     - assets/Ecommerce App 1/powered_by.png
+     - assets/Ecommerce App 1/flutter1.png
+     - assets/Ecommerce App 1/flutter2.png
+     - assets/Ecommerce App 1/applinces.png
+     - assets/beauty.png
+     - assets/electronic.png
+     - assets/fashion.png
+     - assets/grocery.png
+     - assets/mobiles.png
+     - assets/sports_and_more.png
+     - assets/toys_and_babby.png
+     - assets/home.png
+     - assets/hair_dryer.png
+     - assets/laptop.png
+     - assets/power_bank.png
+     - assets/male_modle.png
+     - assets/shirt_modle.png
+     - assets/female.png
+     - assets/watch.png
+     - assets/banner_one.png
+     - assets/phone_two.png
+     - assets/phone_three.png
+     - assets/phone.png
+     - assets/nokia.png
+     - assets/banner_two.png
+     - assets/banner_three.png
+     - assets/mobile_top.png
+     - assets/telivision.png
+     - assets/running.png
+      #ui clone 1st
+     - assets/Ecommerce App 3/images/ic_add_cart.png
+     - assets/Ecommerce App 3/images/
+     - assets/Ecommerce App 3/images/ic_discount.png
+     - assets/Ecommerce App 3/images/promotion_one.png
+     - assets/Ecommerce App 3/images/promotion_two.png
+     - assets/Ecommerce App 3/images/promotion__one.png
+     - assets/Ecommerce App 3/images/promotion_three.png
+     - assets/Ecommerce App 3/images/ic_app_icon.png
+     - assets/Ecommerce App 3/images/ic_category_image.png
+     - assets/Ecommerce App 3/images/empty_shopping_cart_image.png
+     - assets/Ecommerce App 3/images/empty_shopping_cart.png
+     - assets/Ecommerce App 3/images/empty_wish_list.png
+
+     - assets/Ecommerce App 2/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: assets/Ecommerce App 3/CustomIcons.ttf
+
+    - family: Poppins-Bold
+      fonts:
+        - asset: assets/Ecommerce App 3/Poppins-Bold.ttf
+
+    - family: Poppins-Medium
+      fonts:
+        - asset: assets/Ecommerce App 3/Poppins-Medium.ttf
+    - family: Roboto-Light
+      fonts:
+        - asset: assets/Ecommerce App 3/Roboto-Light.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/Ecommerce App 3/fonts/Roboto-Regular.ttf
+        - asset: assets/Ecommerce App 3/fonts/Roboto-Bold.ttf
+        - asset: assets/Ecommerce App 3/fonts/Roboto-Light.ttf
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
