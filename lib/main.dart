@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:knowledgeable_content/Api%20Integration/ApiIntegration.dart';
 import 'package:knowledgeable_content/Apps/Courses%20App/Main1.dart';
 import 'package:knowledgeable_content/BottomBar/BottomBar.dart';
 import 'package:knowledgeable_content/BottomSheet/BottomSheet.dart';
@@ -232,6 +233,22 @@ class _MyHomePageState extends State<MyHomePage> {
                     onPressed: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) => Plugins()));
+                    },
+                  ),
+                ),
+              )),
+          Padding(
+              padding: EdgeInsets.all(16),
+              child: Card(
+                child: ListTile(
+                  title: Text('Api Integration'),
+                  trailing: IconButton(
+                    icon: Icon(Icons.arrow_forward_ios),
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => ApiIntegration()));
                     },
                   ),
                 ),

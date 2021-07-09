@@ -42,7 +42,7 @@ dev_dependencies:
     sdk: flutter
   flutter_login: ^1.0.14
 
-  firebase_core: ^0.7.0
+  firebase_core: 
   firebase_auth:
   google_sign_in: ^4.5.9
   typed_data: ^1.2.0
@@ -74,19 +74,19 @@ dev_dependencies:
   animated_drawer: ^0.0.4
   flutter_picker: 1.1.5
   flutter_slider_drawer: ^1.2.1
-  path_provider: ^1.6.22
+  path_provider: 
   path: ^1.7.0
-  fluttertoast: ^7.1.1
-  flutter_secure_storage: ^3.3.5
-  audioplayers: ^0.17.3
-  video_player: ^1.0.1
-  chewie: ^0.12.2
-  url_launcher: ^5.7.0
+  fluttertoast: 
+  flutter_secure_storage: 
+  audioplayers: 
+  video_player: 
+  chewie: 
+  url_launcher: 
   email_validator: ^1.0.6
   geolocator: ^6.1.14
   geocoder: ^0.2.1
-  smooth_star_rating: ^1.1.1
-  google_maps_flutter: ^1.1.1
+  smooth_star_rating: 
+  google_maps_flutter:
   image_picker: ^0.6.7+22
   camera:
   bubble_bottom_bar: ^1.2.0
@@ -116,21 +116,23 @@ dev_dependencies:
   flutter_bloc: ^3.1.0
   google_fonts: ^1.1.2
   permission_handler: 5.0.0
-  flutter_local_notifications: 3.0.1+6
+  flutter_local_notifications: 
   firebase_messaging: 
   pdf: ^2.1.0
+
+  razorpay_flutter: ^1.2.6
   pdf_flutter: ^1.1.4
   flutter_downloader: ^1.5.2
-  flutter_full_pdf_viewer: ^1.0.6
-  flutter_pdfview: ^1.0.4
-  advance_pdf_viewer: ^1.2.2
-  ext_storage: ^1.0.3
-  dio: ^3.0.10
-  permission_handler_platform_interface: ^2.0.0
+  flutter_full_pdf_viewer: 
+  flutter_pdfview: 
+
+  ext_storage:
+  dio: 
+  permission_handler_platform_interface: 
   upi_pay: ^0.2.4
   upi_india: ^2.2.0+1
-  webview_flutter: ^1.0.7
-  country_code_picker: ^1.7.0
+  webview_flutter: 
+  country_code_picker: 
 
 
 

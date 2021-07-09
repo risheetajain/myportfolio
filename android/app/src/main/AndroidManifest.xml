@@ -18,8 +18,11 @@
         android:label="knowledgeable_content"
         android:icon="@mipmap/ic_launcher"
         android:usesCleartextTraffic="true"
-        
         >
+        <meta-data
+              android:name="com.google.android.geo.API_KEY"
+              android:value="AIzaSyAaRn2EoXiyH3eSgou41XQ4QRVMrg9pQdo"
+        />
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.snj07.flutter_app_stw.flutter_downloader.provider"
@@ -46,10 +49,7 @@
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@style/NormalTheme"
               />
-            <meta-data
-              android:name="com.google.android.geo.API_KEY"
-              android:value="AIzaSyAaRn2EoXiyH3eSgou41XQ4QRVMrg9pQdo"
-              />
+
     
             <!-- Displays an Android View that continues showing the launch screen
                  Drawable until Flutter paints its first frame, then this splash
